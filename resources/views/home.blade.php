@@ -1,12 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>learn syntax</title>
-</head>
-<body>
-    <h1>hello</h1>
-    
-</body>
-</html>
+@extends('layout')
+@section('content')
+<img src="bg.webp" alt="" class="w-full h-[600px]">
+<div class="container mx-auto px-6 flex m flex-col">
+    <div class="flex ">
+    <livewire:public.topicsection />
+    </div>
+    <div class=" flex">
+    <livewire:public.post-section />
+    </div>
+</div>
+
+@endsection
