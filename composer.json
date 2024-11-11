@@ -7,6 +7,10 @@
     "require": {
         "php": "^8.2",
         "laravel/framework": "^11.9",
+<<<<<<< HEAD
+=======
+        "laravel/socialite": "^5.16",
+>>>>>>> f77bf89b59c5228944e5d8a853dce6102e02ccc3
         "laravel/tinker": "^2.9",
         "livewire/livewire": "^3.5"
     },
