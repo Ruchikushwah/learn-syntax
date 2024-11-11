@@ -19,7 +19,7 @@ class InsertTopic extends Component
         $this->topic_name = '';
         $this->topic_description = '';
 
-        $this->dispatch('refresh');
+        $this->dispatch('topic created');
         session()->flash('message', 'Topic created successfully!');
 
     }

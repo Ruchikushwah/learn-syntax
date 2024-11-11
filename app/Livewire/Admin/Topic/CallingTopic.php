@@ -3,6 +3,7 @@
 namespace App\Livewire\Admin\Topic;
 
 use App\Models\Topic;
+use Livewire\Attributes\On;
 use Livewire\Component;
 
 class CallingTopic extends Component
@@ -14,6 +15,7 @@ class CallingTopic extends Component
         $topic ->delete();
         session()->flash('message','Topic deleted successfully!');
     }
+    #[On('topic created')]
 
     public function render()
     {
